@@ -1,23 +1,35 @@
-h1 {
-    color: green;
+:root {
+
 }
-h1 a {
-    text-decoration-color: green;
-    text-decoration: none;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 header {
-    display: flex;
-    background-color: blue;
-    width: 1300px;
-    padding: 50px;
-    margin: auto;
+    padding: 20px;
+    background-color: tan;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: green;
+    margin: 0;
+    display: inline;
+}
+header a {
+    text-decoration: none;
+    color: green;
 }
 header nav {
     float: right;
+    margin: 7px 0;
 }
 header nav ul li {
-    list-style-type: none;
-    display: flex;
-    flex: wrap;
-    justify-content: space-between;
+    display: inline;
+}
+header nav ul li a {
+    margin: 0 20px;
+    font-weight: lighter;
+    font-size: 22px;
 }
