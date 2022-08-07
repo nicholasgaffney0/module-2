@@ -6,14 +6,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: green;
+}
 header {
     padding: 20px;
     background-color: tan;
 }
 header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: green;
     margin: 0;
     display: inline;
 }
@@ -33,14 +35,25 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+
+.about {
+    color: green;
+}
+
+.about-me h1 {
+    display: inline;
+    padding: 0 0 0 20px;
+}
+.about-me p {
+    display: inline;
+    font-size: 15px;
+}
+
 .contact {
     padding: 20px;
     background-color: tan;
 }
 .contact h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: green;
     margin: 0;
     display: inline;
 }
@@ -53,8 +66,30 @@ header nav ul li a {
     display: inline;
 }
 .contact-list ul li a {
-    margin: 10px 10px 10px 10px;
-    padding: 20px;
+    margin: 10px;
     text-decoration: none;
     color: green;
+}
+
+
+
+.about-me {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+#bio {
+    background-color: tan;
+    margin: 20px;
+    padding: 20px;
+}
+.work {
+    margin: 10px;
+    padding: 20px;
+}
+
+.box1 img, .box2 img, .box3 img, .box4 img, .box5 img {
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
 }
