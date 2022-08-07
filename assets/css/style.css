@@ -33,3 +33,28 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+.contact {
+    padding: 20px;
+    background-color: tan;
+}
+.contact h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: green;
+    margin: 0;
+    display: inline;
+}
+.contact-list {
+    display: inline;
+    float: right;
+}
+.contact-list ul li {
+    color: green;
+    display: inline;
+}
+.contact-list ul li a {
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+    text-decoration: none;
+    color: green;
+}
