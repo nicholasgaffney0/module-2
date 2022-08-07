@@ -2,7 +2,7 @@
 
 }
 * {
-    margin: 0;
+    margin: 10px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -36,6 +36,7 @@ header nav ul li a {
     font-size: 22px;
 }
 
+/* about me section */
 .about {
     color: green;
 }
@@ -43,12 +44,81 @@ header nav ul li a {
 .about-me h1 {
     display: inline;
     padding: 0 0 0 20px;
+    border-right: 3px solid green;
 }
 .about-me p {
     display: inline;
     font-size: 15px;
 }
 
+.about-me {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+.about-me h1 {
+    margin: 10px;
+    display: inline;
+}
+
+#bio {
+    background-color: tan;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* works section */
+.work {
+    margin: 10px;
+    padding: 20px;
+}
+
+.box1 img, .box2 img, .box3 img, .box4 img, .box5 img {
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
+}
+.works {
+    display: flex;
+    justify-content: left;
+    
+}
+.works h1 {
+    margin: 10px;
+    border-right: 3px solid green;
+
+}
+.big-box {
+    background-color: tan;
+    margin: 0 auto;
+}
+.box1 {
+    display: flex;
+    justify-content: center;
+    width: fixed;
+}
+.box2 {
+    display: inline-block;
+    justify-content: center;
+    width: fixed;
+}
+.box3 {
+    display: inline-block;
+    justify-content: center;
+    width: fixed;
+}
+.box4 {
+    display: inline-block;
+    justify-content: center;
+    width: fixed;
+}
+.box5 {
+    display: inline-block;
+    justify-content: right;
+    width: fixed;
+}
+
+/* Contact me section */
 .contact {
     padding: 20px;
     background-color: tan;
@@ -60,6 +130,8 @@ header nav ul li a {
 .contact-list {
     display: inline;
     float: right;
+    margin: 10px;
+    padding: 0;
 }
 .contact-list ul li {
     color: green;
@@ -69,27 +141,4 @@ header nav ul li a {
     margin: 10px;
     text-decoration: none;
     color: green;
-}
-
-
-
-.about-me {
-    display: flex;
-    justify-content: left;
-    align-items: left;
-}
-#bio {
-    background-color: tan;
-    margin: 20px;
-    padding: 20px;
-}
-.work {
-    margin: 10px;
-    padding: 20px;
-}
-
-.box1 img, .box2 img, .box3 img, .box4 img, .box5 img {
-    width: 200px;
-    height: 50px;
-    object-fit: cover;
 }
