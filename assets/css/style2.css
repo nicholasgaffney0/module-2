@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header, .contact-me {
+    padding: 20px 35px;
+    background-color: tan;
+}
+
+header h1, .about-me h1, .contact-me h1, .works h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: green;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: green;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+/* Hero */
+.hero {
+    background-image: url("../images/painting.jpg");
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* About Me */
+
+.bio-box {
+    border: 1px solid green;
+    margin-left: 400px;
+    padding: 40px;
+    width: 400px;
+    height: 100px;
+    text-align: justify;
+}
+
+
+
+
+/* Contact me */
+.contact-me {
+    margin: 0;
+    padding: 50px;
+}
+
+.contact-me a {
+    text-decoration: none;
+    color: green;
+    font-size: 22px;
+}
+.contact-list {
+    float: right;
+    margin: 7px 0;
+}
+.contact-list ul li {
+    display: inline;
+}
+.contact-list ul li a {
+    margin: 0 60px;
+}
+
+#number {
+    color: green;
+    font-size: 22px;
+    margin: 0 30px;
+}
+
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section {
+    padding: 60px;
+}
+
+
+
+
+img {
+    width: 150px;
+    height: 150px;
+}
