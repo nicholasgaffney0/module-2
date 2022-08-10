@@ -3,10 +3,16 @@
     padding: 0;
 }
 
+:root {
+    --primary-color: rgba(39, 143, 72, 1);
+    --background-color: rgba(19, 224, 242, .2);
+    --secondary-color: rgba(222, 133, 242, .5);
+}
+
 /* Header */
 header {
     padding: 20px 35px;
-    background-color: tan;
+    background-color: var(--background-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -14,11 +20,12 @@ header {
 
 header a {
     text-decoration: none;
-    color: green;
+    color: var(--primary-color);
 }
 header a:hover {
-    background-color: blue;
-    color: red;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 3px;
 }
 
 header nav {
@@ -57,7 +64,7 @@ header nav ul li a {
 
 .section-title {
     font-size: 36px;
-    color: green;
+    color: var(--primary-color);
     border-bottom: 3px solid green;
     padding-bottom: 5px;
     text-align: left;
@@ -76,8 +83,8 @@ header nav ul li a {
     text-align: center;
 }
 .bio-box p {
-    color: green;
-    background-color: rgba(0, 0, 255, .2);
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
     margin: 10px;
     padding: 10px;
     width: fit-content;
@@ -125,7 +132,7 @@ img {
 
 .works {
     flex: 1;
-    background-color: white;
+    background-color: var(--background-color);
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -139,6 +146,8 @@ img {
 .box {
     border-style: solid;
     border-width: 1px;
+    background-color: white;
+    color: var(--primary-color);
     padding: 10px;
     flex: 0 0 300px;
     margin: 20px;
@@ -160,7 +169,7 @@ img {
 /* Contact me */
 .contact {
     padding: 45px 35px;
-    background-color: tan;
+    background-color: var(--background-color);
 }
 
 .contact-me {
@@ -170,7 +179,7 @@ img {
 
 .contact-me a {
     text-decoration: none;
-    color: green;
+    color: var(--primary-color);
     font-size: 22px;
 }
 .contact-list {
@@ -185,7 +194,7 @@ img {
 }
 
 #number {
-    color: green;
+    color: var(--primary-color);
     font-size: 22px;
     margin: 0 30px;
 }
@@ -196,6 +205,7 @@ body {
 }
 section {
     padding: 60px;
+    background-color: var(--background-color);
 }
 
 @media screen and (max-width: 980px) {
